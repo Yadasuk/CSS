@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://www.shutterstock.com/image-illustration/abstract-blue-white-colors-gradient-600nw-2120954546.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .btn {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .btn {
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #9BBEC8 0%, #427D9D 100%);
+    box-shadow: 0 20px 30px -6px rgba(22, 72, 99, 0.5);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    color: rgb(221, 242, 253);
+  }
+  
+  .btn:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  .btn:active {
+    opacity: 0.5;
+  }
+  
+  h1 {
+    font-family: Optima, sans-serif;
+    text-decoration: underline overline;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .logo {
+    width: auto;
+    height: 150px;
+    margin: 0;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .center {
+    margin: 0;
+    position: fixed;
+    top: 80%;
+    left: 45%;
+  }
